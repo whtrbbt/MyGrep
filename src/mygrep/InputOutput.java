@@ -54,7 +54,7 @@ public class InputOutput {
         }
  
         catch(FileNotFoundException e) {
-            System.out.println("Файл "+filename+" не найден\n"+
+            System.out.println("Файл \""+filename+"\" не найден "+
             "или отсутсвует доступ.");
         }
  
